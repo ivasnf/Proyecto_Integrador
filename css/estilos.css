@@ -1,0 +1,294 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}*/
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: url('../img/11.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.Contenedor1{
+    
+    height: 90vh; /* Establece altura*/
+    width: 90vw; /* Establece ancho*/
+    border-radius: 15px; /*Aplica un borde redondeado al contenedor.*/
+    display: flex; /*Utiliza Flexbox para organizar elementos hijos.*/
+    /*justify-content: center;/*Centra los elementos en el eje principal (horizontal) del contenedor.*/
+    /*align-items: center;/*Centra los elementos en el eje secundario (vertical) del contenedor.*/
+    padding: 1rem; /*Establece un relleno interno de 1 rem (unidad relativa al tamaño del texto).*/
+    transition: 0.5s;/*: Aplica una transición de 0.5 segundos a propiedades animadas.*/
+    background-color: rgba(255, 255, 255, 0.1);/*: Establece un color de fondo blanco semitransparente.*/
+    border: 2px solid white;/*: Agrega un borde sólido blanco de 1 píxel alrededor del contenedor.*/
+    backdrop-filter: blur(5px);/*: Aplica un efecto de desenfoque al fondo del contenedor.*/
+    margin: auto;/*centra */
+    /*display: grid;/*Centra el contenido*/
+    /*place-items: center;/*centra el contenido*/
+    margin-top: 180px;/*Altura*/    
+}
+
+.formulario1{
+    height: 70vh;
+    width: 30vw;
+    border-radius: 10px;
+    border: 0.5px solid white;
+    margin: 50px;
+    margin-top: 50px;
+    backdrop-filter: blur(11px);
+    display: grid;/*Centra el contenido*/
+    place-items: center;/*centra el contenido*/   
+}
+
+.formulario2{
+    height: 70vh;
+    width: 30vw;
+    border-radius: 10px;
+    border: 0.5px solid white;
+    margin: 200px;
+    margin-top: 70px;
+    backdrop-filter: blur(11px);
+    display: grid;/*Centra el contenido*/
+    place-items: center;/*centra el contenido*/   
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(145, 144, 144, 0.4);
+    border-bottom: 1px solid #fff;
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #333;
+}
+header .navar ul{
+    list-style: none;
+}
+
+header .navar ul li{
+    position: relative;
+    float: left;
+}
+header .navar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: #333;
+    display: block;
+}
+
+header .navar ul li a:hover{
+    background: #333;
+    color: #fff;
+}
+
+#menu-bar{
+    display: none;
+}
+
+header label{
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+
+/**/
+
+.container-page{
+    /* width: 600px;
+     height: 300px;
+     */height: 60vh;
+     width: 30vw;
+     border-radius: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 1rem;
+     transition: 0.5s;
+     background-color: rgba(255, 255, 255, 0.1);
+     border: 1px solid white;
+     backdrop-filter: blur(10px);
+     margin: auto;
+     display: grid;
+     place-items: center;
+     margin-top: 50px;
+ }
+ 
+ /*
+ height: 50vh;: Establece la altura del contenedor en el 50% de la ventana.
+ width: 20vw;: Establece el ancho del contenedor en el 20% de la ventana.
+ border-radius: 20px;: Aplica un borde redondeado al contenedor.
+ display: flex;: Utiliza Flexbox para organizar elementos hijos.
+ justify-content: center;: Centra los elementos en el eje principal (horizontal) del contenedor.
+ align-items: center;: Centra los elementos en el eje secundario (vertical) del contenedor.
+ padding: 1rem;: Establece un relleno interno de 1 rem (unidad relativa al tamaño del texto).
+ transition: 0.5s;: Aplica una transición de 0.5 segundos a propiedades animadas.
+ background-color: rgba(255, 255, 255, 0.1);: Establece un color de fondo blanco semitransparente.
+ border: 1px solid white;: Agrega un borde sólido blanco de 1 píxel alrededor del contenedor.
+ backdrop-filter: blur(10px);: Aplica un efecto de desenfoque al fondo del contenedor.
+ */
+ 
+ .login-container{
+     width: 100%;
+     height: fit-content;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     color: white;
+ }
+ 
+ /*
+ width: 100%;: Hace que el contenedor ocupe el 100% del ancho disponible.
+ height: fit-content;: Ajusta la altura del contenedor para adaptarse al contenido.
+ display: flex;: Utiliza Flexbox para organizar elementos hijos.
+ justify-content: center;: Centra los elementos en el eje principal (horizontal) del contenedor.
+ align-items: center;: Centra los elementos en el eje secundario (vertical) del contenedor.
+ flex-direction: column;: Establece la dirección de los elementos secundarios en columnas.
+ color: white;: Configura el color del texto dentro del contenedor como blanco.
+ */
+ 
+ form{
+     width: 80%;
+     margin: auto;
+ }
+ /*
+ width: 80%;: Establece el ancho del formulario al 80% del contenedor padre.
+ margin: auto;: Centra el formulario horizontalmente dentro de su contenedor padre
+ */
+ 
+ .input-line-container{
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     flex-direction: column;
+     width: 100%;
+     margin: 1rem 0;
+ }
+ /*
+ display: flex;: Utiliza Flexbox para organizar elementos hijos.
+ justify-content: center;: Centra los elementos en el eje principal (horizontal) del contenedor.
+ align-items: flex-start;: Alinea los elementos al principio del eje secundario (arriba) del contenedor.
+ flex-direction: column;: Establece la dirección de los elementos secundarios en columnas.
+ width: 100%;: Hace que el contenedor ocupe el 100% del ancho disponible.
+ margin: 1rem 0;: Agrega un margen superior e inferior de 1 rem al contenedor.
+ */
+
+ 
+.button-login{
+    width: 100%;
+    height: 45px;
+    border-radius: 55px;
+    background: rgba(255, 255, 255, 0.14);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+/*
+width: 100%;: Hace que el botón ocupe el 100% del ancho disponible.
+height: 45px;: Establece la altura del botón a 45 píxeles.
+border-radius: 55px;: Aplica un borde redondeado al botón.
+background: rgba(255, 255, 255, 0.14);: Establece un fondo semitransparente blanco para el botón.
+color: white;: Configura el color del texto en blanco.
+font-size: 14px;: Establece el tamaño de fuente del texto a 14 píxeles.
+font-weight: 600;: Define la grosura de la fuente como 600 (más gruesa que la normal).
+text-transform: uppercase;: Convierte el texto a mayúsculas.
+border: none;: Elimina todos los bordes del botón.
+margin-bottom: 1rem;: Agrega un margen inferior de 1 rem al botón.
+cursor: pointer;: Cambia el cursor a una mano al pasar sobre el botón.
+transition: 0.5s;: Aplica una transición de 0.5 segundos a propiedades animadas del botón.
+*/
+
+.button-second{
+    width: 100%;
+    height: 45px;
+    border-radius: 55px;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 2px solid white;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+Similar al botón anterior, pero con algunas diferencias.
+background: transparent;: Hace que el fondo del botón sea transparente.
+border: 2px solid white;: Agrega un borde sólido blanco de 2 píxeles al botón.
+opacity: 0.6;: Establece la opacidad del botón al 60%, haciendo que parezca más transparente.
+display: flex; justify-content: center; align-items: center;: Utiliza Flexbox para centrar el contenido del botón tanto horizontal como verticalmente.
+*/
+
+.button-login:hover{
+    box-shadow: 0px 0px 8px #ffffffa4;
+}
+.button-second:hover{
+    opacity: 1;
+}
+/*
+.button-login:hover: Aplica estilos adicionales cuando el cursor está sobre el botón de inicio de sesión.
+box-shadow: 0px 0px 8px #ffffffa4;: Agrega una sombra suave al botón cuando está en estado de "hover".
+.button-second:hover: Aplica estilos adicionales cuando el cursor está sobre el segundo botón.
+opacity: 1;: Ajusta la opacidad al 100% cuando el cursor está sobre el segundo botón, haciendo que parezca más opaco
+*/
+/**/
+
+
+@media (max-width:991px){
+    header{
+        padding: 20px;
+    }
+    header label{
+        display: initial;
+    }
+    header .navar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgba(145, 144, 144, 0.4);
+        border-bottom: 1px solid #fff;
+        display: none;/**/
+    }
+    header .navar ul li{
+        width: 100%;
+    } 
+    header .navar ul li{
+        width: 100%;
+    }
+    #menu-bar:checked~.navar{
+        display: initial;
+    }    
+    
+}

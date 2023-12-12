@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | CORPORACION LISAG</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/dataTables.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+    <link rel="stylesheet" href="css/alertify.core.css">
+    <link rel="stylesheet" href="css/alertify.default.css">
+
+
+    <!-- Scripts al final del cuerpo -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<script src="js/dataTables.min.js"></script>
+<script src="js/alertify.js"></script>
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script defer src="js/control.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <a class="navbar-brand" href="#"><img  src="img/logo_sf.png" alt="" width="140" height="110"></a>
+        <a href="#" class="logo">CORPORACION LISAG</a>
+
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">Menu</label>
+
+
+        <nav class="navar">
+            <ul>
+                <li><a href="#" id="btnInicio">Inicio</a></li>
+                <li><a href="#" id="btnVisitante">Visitante</a></li>
+                <li><a href="#" id="btnTrabajador">Trabajador</a></li>
+                <li><a href="#" id="btnArea">Area</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <div class="Contenedor1">
+        <div class="fo">
+            <form action="" id="formulario1" class="formulario1">
+                <h5>Informacion personal</h5>
+    
+                <label for="nombre" class="label_nombre">Nombre:</label>
+                <input type="text" id="nombre" class="input_nombre">
+    
+                <label for="ap" class="label_AP">Apellido Paterno:</label>
+                <input type="text" id="ap" class="input_ap">
+    
+                <label for="am" class="label_AM">Apellido Materno:</label>
+                <input type="text" id="am" class="input_am">
+    
+                <label for="curp" class="label_CURP">CURP:</label>
+                <input type="text" id="curp" class="input_curp">
+    
+                <label for="telefono" class="label_T">Telefono:</label>
+                <input type="text" id="telefono" class="input_telefono">
+    
+                <button class="btn1">Enviar</button>
+            </form>
+
+        </div>
+        
+     <!--////////////////////////////////////////////////////////////////////////////////////--> 
+        <div class="for">
+            <form action="" id="formulario2" class="formulario2">
+                <div id="contenedorQR" class="contenedorQR"></div>
+
+            </form>
+
+        </div>
+        
+    </div>
+
+    
+</body>
+</html>
